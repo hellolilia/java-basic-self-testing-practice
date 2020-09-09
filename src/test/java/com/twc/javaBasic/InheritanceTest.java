@@ -14,7 +14,7 @@ class InheritanceTest {
         //  Please write down the class type directly.
         //
         // <--start
-        final Class<?> expectedSuperClass = Class.forName("java.lang.Object");
+        final Class<?> expectedSuperClass = java.lang.Object.class;
         // --end-->
 
         assertEquals(expectedSuperClass, SimpleEmptyClass.class.getSuperclass());
